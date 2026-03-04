@@ -76,8 +76,14 @@
             if(year%4==0 && year%100!=0){
                 console.log("leapyear")
             }
-            else if (year%4==0 && year%100!=0)
+            else if (year%400==0 && year%100==0){
+                console.log("leapyear")
+            }
+            else {
+                console.log("not a leapyear")
+            }
         }
+        
         </script>
 </body>
 </html>
